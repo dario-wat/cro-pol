@@ -1,0 +1,19 @@
+<!ELEMENT podaci (stranka*)>
+<!ELEMENT stranka (puni_naziv,skraćeni_naziv,osoba*,adresa?,facebook)>
+<!ATTLIST stranka id ID #REQUIRED>
+<!ELEMENT puni_naziv (#PCDATA)>
+<!ELEMENT skraćeni_naziv (#PCDATA)>
+<!ELEMENT osoba (ime,prezime)>
+<!ATTLIST osoba kategorija (Predsjednik|Osnivač|Potpredsjednik|Tajnik) #REQUIRED>
+<!ELEMENT ime (#PCDATA)>
+<!ELEMENT prezime (#PCDATA)>
+<!ATTLIST stranka politički_položaj (Lijevo|Desno|Centar) #REQUIRED>
+<!ELEMENT adresa (ulica,mjesto,kućni_broj,država)>
+<!ELEMENT ulica (#PCDATA)>
+<!ELEMENT mjesto (#PCDATA)>
+<!ATTLIST mjesto poštanski_broj CDATA #REQUIRED>
+<!ELEMENT kućni_broj (#PCDATA)>
+<!ELEMENT država (#PCDATA)>
+<!ATTLIST stranka ideologija (Socijaldemokracija|Konzervativizam|Demokršćanstvo|Interesna_stranka|Liberalizam|Decentralizacija|Laissez_faire) #REQUIRED>
+<!ATTLIST stranka vrijeme_djelovanja (Prije_domovinskog_rata|Nakon_domovinskog_rata|Još_uvijek_aktivna) #REQUIRED>
+<!ELEMENT facebook (#PCDATA)>

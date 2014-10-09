@@ -1,0 +1,127 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+ <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+    <link rel="stylesheet" type="text/css" href="dizajn.css">
+    <title>Hrvatske političke stranke</title>
+  </head>
+
+  <body>
+    <div id="header">
+      <a href="index.html">
+        <img src="http://www.rgbstock.com/largephoto/barunpatro/mf6JWUc.jpg" alt="Logo">
+      </a>
+      Političke stranke u Hrvatskoj
+    </div>
+
+    <div id="container">
+      <div id="leftmenu">
+        <div id="navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="obrazac.html">Pretraživanje</a></li>
+            <li><a href="podaci.xml">Podaci</a></li>
+            <li><a href="http://www.fer.hr/predmet/or">Stranica predmeta</a></li>
+            <li><a href="http://www.fer.unizg.hr" target="_blank">FER</a></li>
+            <li><a href="mailto:dario.vidas@fer.hr">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="wrapper">
+        <div id="bodysearch">
+          <h2>Pretraživanje</h2>
+          <form action="pretraga.php">
+            <table summary="Tablica za formu.">
+              <!--col width="180"-->
+              <tr>
+                <th class="title" colspan="2" valign="bottom">Nazivi</th>
+              </tr>
+              <tr>
+                <td>Puni naziv:</td>
+                <td><input type="text" name="puni"></td>
+              </tr>
+              <tr>
+                <td>Skraćeni naziv:</td>
+                <td><input type="text" name="skraceni"></td>
+              </tr>
+              <tr>
+                <th class="title" colspan="2" valign="bottom">Adresa sjedišta</th>
+              </tr>
+              <tr>
+                <td>Ulica:</td>
+                <td><input type="text" name="ulica"></td>
+              </tr>
+              <tr>
+                <td>Kućni broj:</td>
+                <td><input type="text" name="kucbroj"></td>
+              </tr>
+              <tr>
+                <td>Mjesto:</td>
+                <td><input type="text" name="mjesto"></td>
+              </tr>
+              <tr>
+              	<th class="title" colspan="2" valign="bottom">Osoba</th>
+              </tr>
+              <tr>
+              	<td>Položaj u stranci:</td>
+              	<td><input type="text" name="kateg"/></td>
+              </tr>
+              <tr>
+              	<td>Ime:</td>
+              	<td><input type="text" name="oime"/></td>
+              </tr>
+              <tr>
+              	<td>Prezime:</td>
+              	<td><input type="text" name="oprezime"/></td>
+              </tr>
+              <tr>
+                <th class="title" colspan="2" valign="bottom">Informacije</th>
+              </tr>           
+              <tr>
+                <td>Politički položaj:</td>
+                <td>
+                  <input type="radio" name="polozaj" value="Lijevo">Lijevo
+                  <input type="radio" name="polozaj" value="Desno">Desno
+                  <input type="radio" name="polozaj" value="Centar">Centar
+                </td>
+              </tr>
+              <tr>
+                <td valign="top">Vrijeme djelovanja:</td>
+                <td>
+                  <input type="checkbox" name="vrdjel[]" value="Prije_domovinskog_rata">Prije domovinskog rata<br>
+                  <input type="checkbox" name="vrdjel[]" value="Nakon_domovinskog_rata">Nakon domovinskog rata<br>
+                  <input type="checkbox" name="vrdjel[]" value="Još_uvijek_aktivna">Još uvijek aktivna
+                </td>
+              </tr>              
+              <tr>
+                <td valign="top">Ideologija:</td>
+                <td>
+                  <select name="ideologija[]" multiple="multiple" size="6">
+                    <option value="Socijaldemokracija">Socijaldemokracija</option>
+                    <option value="Konzervativizam">Konzervativizam</option>
+                    <option value="Demokršćanstvo">Demokršćanstvo</option>
+                    <option value="Interesna stranka">Interesna stranka</option>
+                    <option value="Liberalizam">Liberalizam</option>
+                    <option value="Decentralizacija">Decentralizacija</option>
+                    <option value="Laissez faire">Laissez faire</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>                
+                <td class="no-borders" colspan="2" align="center">
+                  <input class="button" type="submit" value="Potvrdi">
+                  <input class="button" type="reset" value="Poništi">
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <div id="footer">
+          Autor stranice: Dario Vidas<br>
+          Kontakt: <a href="mailto:dario.vidas@fer.hr">Webmaster</a>
+        </div>
+      </div>
+    </div>
+  </body>
+ </html>

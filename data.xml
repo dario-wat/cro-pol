@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl" ?>
+<!DOCTYPE podaci SYSTEM "gramatika.dtd">
+
+<podaci>
+  <stranka id="sdphrvatske" politički_položaj="Lijevo" ideologija="Socijaldemokracija" vrijeme_djelovanja="Još_uvijek_aktivna">
+    <puni_naziv>Socijaldemokratska partija Hrvatske</puni_naziv>
+    <skraćeni_naziv>SDP</skraćeni_naziv>
+    <osoba kategorija="Predsjednik">
+      <ime>Zoran</ime>
+      <prezime>Milanović</prezime>
+    </osoba>
+    <osoba kategorija="Tajnik">
+      <ime>Igor</ime>
+      <prezime>Dragovan</prezime>
+    </osoba>
+    <adresa>
+      <ulica>Iblerov trg</ulica>
+      <mjesto poštanski_broj="10000">Zagreb</mjesto>
+      <kućni_broj>9</kućni_broj>
+      <država>Hrvatska</država>
+    </adresa>
+    <facebook>http://www.facebook.com/sdp</facebook>
+  </stranka>
+
+  <stranka id="406059206159790" politički_položaj="Desno" ideologija="Konzervativizam" vrijeme_djelovanja="Još_uvijek_aktivna">
+    <puni_naziv>Hrvatska demokratska zajednica</puni_naziv>
+    <skraćeni_naziv>HDZ</skraćeni_naziv>
+    <osoba kategorija="Predsjednik">
+      <ime>Tomislav</ime>
+      <prezime>Karamarko</prezime>
+    </osoba>
+    <adresa>
+      <ulica>Trg žrtava fašizma</ulica>
+      <mjesto poštanski_broj="10000">Zagreb</mjesto>
+      <kućni_broj>4</kućni_broj>
+      <država>Hrvatska</država>
+    </adresa>
+    <facebook>http://www.facebook.com/hdz</facebook>
+  </stranka>
+
+  <stranka id="hns.hr" politički_položaj="Lijevo" ideologija="Liberalizam" vrijeme_djelovanja="Još_uvijek_aktivna">
+    <puni_naziv>Hrvatska narodna stranka</puni_naziv>
+    <skraćeni_naziv>HNS</skraćeni_naziv>
+    <osoba kategorija="Potpredsjednik">
+      <ime>Ivan</ime>
+      <prezime>Vrdoljak</prezime>
+    </osoba>
+    <adresa>
+      <ulica>Kneza Mislava</ulica>
+      <mjesto poštanski_broj="10000">Zagreb</mjesto>
+      <kućni_broj>8</kućni_broj>
+      <država>Hrvatska</država>
+    </adresa>
+    <facebook>http://www.facebook.com/hns</facebook>
+  </stranka>
+
+  <stranka id="laburisti" politički_položaj="Lijevo" ideologija="Socijaldemokracija" vrijeme_djelovanja="Još_uvijek_aktivna">
+    <puni_naziv>Hrvatski laburisti - Stranka rada</puni_naziv>
+    <skraćeni_naziv>Laburisti</skraćeni_naziv>
+    <osoba kategorija="Osnivač">
+      <ime>Dragutin</ime>
+      <prezime>Lesar</prezime>
+    </osoba>
+    <adresa>
+      <ulica>Ilica</ulica>
+      <mjesto poštanski_broj="10000">Zagreb</mjesto>
+      <kućni_broj>108</kućni_broj>
+      <država>Hrvatska</država>
+    </adresa>
+    <facebook>http://www.facebook.com/laburisti</facebook>
+  </stranka>
+
+  <stranka id="hrvatska.stranka.prava.hr" politički_položaj="Desno" ideologija="Konzervativizam" vrijeme_djelovanja="Još_uvijek_aktivna">
+    <puni_naziv>Hrvatska stranka prava dr. Ante Starčević</puni_naziv>
+    <skraćeni_naziv>HSP</skraćeni_naziv>
+    <facebook>http://www.facebook.com/hsp</facebook>
+  </stranka>
+</podaci>
