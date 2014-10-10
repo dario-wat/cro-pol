@@ -1,5 +1,5 @@
 <?php
-include('funkcije.php');
+include('functions.php');
 
 function createInfo($name, $value) {
 	return '<strong>' . $name . ':</strong><br/>' . $value . '<br/>';

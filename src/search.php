@@ -1,10 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
-<?php include('funkcije.php'); ?>
+<?php include('functions.php'); ?>
 
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
-    <link rel="stylesheet" type="text/css" href="dizajn.css">
+    <link rel="stylesheet" type="text/css" href="design.css">
     <title>Hrvatske političke stranke</title>
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
 

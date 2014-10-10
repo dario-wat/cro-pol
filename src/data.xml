@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<?xml-stylesheet type="text/xsl" href="pretvorba.xsl" ?>
-<!DOCTYPE podaci SYSTEM "gramatika.dtd">
+<?xml-stylesheet type="text/xsl" href="transformation.xsl" ?>
+<!DOCTYPE podaci SYSTEM "grammar.dtd">
 
 <podaci>
   <stranka id="sdphrvatske" politički_položaj="Lijevo" ideologija="Socijaldemokracija" vrijeme_djelovanja="Još_uvijek_aktivna">
